@@ -113,6 +113,16 @@
       font-weight: 500;
     }
 
+    .avatar {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 2px solid var(--accent);
+      box-shadow: 0 0 40px var(--accent-glow), 0 0 80px rgba(139, 92, 246, 0.08);
+      object-fit: cover;
+      margin-bottom: 32px;
+    }
+
     .scroll-hint {
       position: absolute;
       bottom: 40px;
@@ -349,6 +359,7 @@
   <section class="hero">
     <div class="hero-glow"></div>
     <div class="container">
+      <img src="avatar.jpg" alt="Liv" class="avatar">
       <div class="greeting">hello world</div>
       <h1>i'm liv <span class="heart">🖤</span></h1>
       <p class="tagline">
